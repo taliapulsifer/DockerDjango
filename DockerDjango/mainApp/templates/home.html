@@ -1,8 +1,9 @@
 {% extends "base.html" %} {% block title %} Home Page {% endblock %}
 {% block content %}
-<p>
-    This is the home page!
-</p>
-<button type="button" class="btn" onclick="">Base class</button>
-<div id="output"></div>
+<h1>Home</h1>
+<div class="form-outline" data-mdb-input-init>
+    <input type="text" id="formControlDefault" class="form-control" />
+    <label class="form-label" for="formControlDefault">Image Name</label>
+  </div>
+<a class="btn btn-primary" href="#" role="button">Run Container</a>
 {% endblock %}
